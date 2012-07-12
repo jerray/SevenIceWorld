@@ -1,0 +1,102 @@
+/*
+Theme Name: Seven Ice World
+Theme URI: https://github.com/7lemon/SevenIceWorld
+Author: 7lemon
+Author URI: http://www.7lemon.net
+Description: Testing
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Tags: light, white, black, blue, two-columns, right-sidebar, fixed-width
+*/
+
+* {border: none 0;}
+h1, h2, h3, h4, h5, h6 {margin: 0; padding: 0;}
+input, button, select, textarea {outline:none;}
+body {margin: 0;}
+
+#page {margin: 0 auto; width: 1024px;}
+#banner {width: 1024px; height: 128px; background-color: #000; float: left;}
+#banner hgroup {width: 512px; float: left;}
+#site-title {color: #3992b5; font-size: 54px; margin: 30px 0 0 90px;}
+#site-title a, #site-title a:visited {color: #3992b5; text-decoration: none;}
+#site-title a:hover {color: #3992b5;}
+#site-description {color: #8b8b8b; font-size: 14px; margin: 10px 0 0 200px;}
+#social-list {float: right; margin: 40px 0 0 10px; text-align: right;}
+#social-list ul {list-style: none; margin: 0 20px 0 0;}
+#social-list ul li {display: inline; height: 64px; width: 64px; padding: 0 10px 0 10px;}
+.social-list-icon {display: block; float: right; margin: 0 10px;}
+#social-twitter-icon {height: 48px; width: 48px; background: url(images/icons.png) no-repeat; background-position: 0 0;}
+#social-sina-icon {height: 48px; width: 59px; background: url(images/icons.png) no-repeat; background-position: -144px 0;}
+#social-github-icon {height: 48px; width: 48px; background: url(images/icons.png) no-repeat; background-position: -48px 0;}
+#social-rss-icon {height: 48px; width: 48px; background: url(images/icons.png) no-repeat; background-position: -96px 0;}
+#social-twitter-icon:hover {height: 48px; width: 48px; background: url(images/icons.png) no-repeat; background-position: 0 -48px;}
+#social-sina-icon:hover {height: 48px; width: 59px; background: url(images/icons.png) no-repeat; background-position: -144px -48px;}
+#social-github-icon:hover {height: 48px; width: 48px; background: url(images/icons.png) no-repeat; background-position: -48px -48px;}
+#social-rss-icon:hover {height: 48px; width: 48px; background: url(images/icons.png) no-repeat; background-position: -96px -48px;}
+
+#access {width: 1024px; height: 64px; background-color: #33b5e5; float: left; box-shadow: 0 0 10px #000;}
+#admin-avatar {width: 64px; height: 64px; float: left;}
+#head-menu {float: left; height: 64px; font-size: 14px;}
+#head-menu ul {list-style: none; margin: 0; padding: 0;}
+#head-menu ul li {display: inline;}
+#head-menu a, #head-menu a:visited {display: block; height: 64px; line-height: 64px; color: #fff; text-decoration: none;
+                                    float: left; padding: 0 20px 0 20px;}
+#head-menu a:hover {background-color: #71cbed; height: 62px; line-height: 64px;}
+#head-menu .current_page_item a:hover {background-color: #33b5e5; height: 56px; line-height: 64px;}
+#head-menu .current_page_item a {height: 56px; border-bottom: solid 8px #fff;}
+
+#main {padding-top: 5px; width: 1024px; float: left;}
+#content {width: 720px; float: left; border-right: solid 1px #d6d6d6;}
+#article-group, #comments {margin: 0 10px 10px 10px; width: 700px; float: left;}
+.post {width: 700px; float: left; margin-top: 30px;}
+.entry-header {padding: 8px 0; border-bottom: solid 2px #33b5e5; width: 700px; float: left;}
+.entry-header h1 a, .entry-header h1 a:visited {color: #33b5e5; text-decoration: none;}
+.entry-header h1 a:hover {color: #000;}
+.post h1 {font-size: 20px; font-weight: bold; color: #33b5e5; margin-left: 10px; width: 450px; float: left;}
+.entry-header-extra {font-size: 12px; float: left; width: 230px; color: #b6b6b6; margin: 8px 5px 0 0; text-align: right;}
+.entry-tag {color: #b6b6b6; text-align: right; padding: 8px 0; margin-right: 10px; font-size: 12px; float: left; width: 700px;}
+.entry-tag span, .entry-header-extra span {padding: 0 5px;}
+.entry-tag a, .entry-tag a:visited, .entry-header-extra a, .entry-header-extra a:visited {padding: 0 5px; color: #b6b6b6; text-decoration: none;}
+.entry-tag a:hover, .entry-header-extra a:hover {color: #71cbed;}
+
+.entry-content {color: #333; font-size: 14px; width: 680px; float: left; margin: 0 10px;}
+
+#pager {width: 700px; float: left; margin: 30px 10px 50px 10px;}
+#pager ul {list-style: none; margin: 0; padding: 0;}
+#pager li {display: inline;}
+#pager a, #pager a:visited {color: #fff; font-size: 13px; background-color: #33b5e5; text-decoration: none; padding: 5px 7px; margin: 0 3px;}
+#pager a:hover {color: #fff; background-color: #71cbed;}
+#pager .current {font-size: 13px; padding: 5px 7px; margin: 0 3px; color: #8b8b8b; background-color: #000;}
+#pager .wp-pagenavi {width: 700px; float: left;}
+#pager .wp-pagenavi .pages {display: block; width: 680px; font-size: 14px; color: #8b8b8b; height: 20px; line-height: 20px; padding: 10px 10px;}
+#pager .previous-post-link {float: left;}
+#pager .next-post-link {float: right;}
+
+#sidebar {width: 302px; float: left;}
+#widgets {margin: 10px;}
+#search {padding: 20px 0 20px 0; text-align: center;}
+.widget {padding: 20px 0 20px 0;}
+#search form {margin: 0 auto; padding: 13px 0 2px 0; border-bottom: solid 1px #33b5e5; width: 240px;}
+#search-submit-button {display: none;}
+#search label {clip: rect(1px, 1px, 1px, 1px); position: absolute;}
+#s {background: url(images/search.png) no-repeat; padding-left: 28px; line-height: 21px; height: 21px; width: 200px; font-size: 16px;}
+
+.widget-title {color: #33b5e5; font-size: 16px; margin: 10px 20px;}
+.widget-content {color: #333; font-size: 13px; padding-left: 21px;}
+.widget-content ul, .widget-content .tagcloud {margin: 10px 0; padding: 0;}
+.widget-content ul {list-style: none;}
+.widget-content ul li {margin: 12px 0;}
+.widget-content a, .widget-content a:visited {color: #333; text-decoration: none;}
+.widget-content a:hover {color: #71cbed;}
+#wp-calendar {width: 261px; color: #333; font-size: 13px; text-align: center;}
+#wp-calendar caption {color: #33b5e5; font-size: 16px; font-weight: bold; margin: 5px 0;}
+#wp-calendar tbody a, #wp-calendar tbody a:visited {color: #fff; background-color: #33b5e5; padding: 1px;}
+#wp-calendar #today a {background-color: #000;}
+#wp-calendar tbody a:hover {color: #fff; background-color: #71cbed;}
+
+#footer {width: 1024px; height: 96px; background-color: #000; float: left; box-shadow: 0 0 10px #000;}
+#footer span {color: #8b8b8b; font-size: 14px; height: 64px; line-height: 64px; padding: 0 20px 0 20px;}
+.footer-border-right {border-right: solid 2px #8b8b8b;}
+#footer a, #footer a:visited {color: #8b8b8b; text-decoration: none;}
+#footer a:hover {color: #71cbed;}

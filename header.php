@@ -38,10 +38,10 @@
         <div id="social-list">
         <?php $options = seveniceworld_get_options();?>
             <ul>
-                <li><a id="social-rss-icon" class="social-list-icon" href="<?php if ($options['rss']){echo $options['rss'];}else{bloginfo( 'rss2_url' );}?>"> </a></li>
+                <li><a id="social-rss-icon" class="social-list-icon" href="<?php if ($options['rss']){echo $options['rss'];}else{bloginfo( 'rss2_url' );}?>" target="_blank"> </a></li>
                 <?php foreach(array_keys($GLOBALS['sevenIceWorldSocialList']) as $k):?>
                     <?php if ($options[$k]): ?>
-                <li><a id="social-<?php echo $k;?>-icon" class="social-list-icon" href="<?php echo $options[$key];?>"> </a></li>
+                <li><a id="social-<?php echo $k;?>-icon" class="social-list-icon" href="<?php echo $options[$k];?>" target="_blank"> </a></li>
                     <?php endif;?>
                 <?php endforeach;?>
             </ul>

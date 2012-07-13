@@ -15,7 +15,7 @@
         </div>
     </nav>
 
-    <section id="comments">
+    <section id="comment-group">
     <?php comments_template(); ?>
     </section>
 </div>

@@ -48,12 +48,12 @@ body {margin: 0;}
 
 #main {padding-top: 5px; width: 1024px; float: left;}
 #content {width: 720px; float: left; border-right: solid 1px #d6d6d6;}
-#article-group, #comments {margin: 0 10px 10px 10px; width: 700px; float: left;}
+#article-group, #comment-group {margin: 0 10px 10px 10px; width: 700px; float: left;}
 .post {width: 700px; float: left; margin-top: 30px;}
 .entry-header {padding: 8px 0; border-bottom: solid 2px #33b5e5; width: 700px; float: left;}
 .entry-header h1 a, .entry-header h1 a:visited {color: #33b5e5; text-decoration: none;}
 .entry-header h1 a:hover {color: #000;}
-.post h1 {font-size: 20px; font-weight: bold; color: #33b5e5; margin-left: 10px; width: 450px; float: left;}
+.entry-header h1 {font-size: 20px; font-weight: bold; color: #33b5e5; margin-left: 10px; width: 450px; float: left;}
 .entry-header-extra {font-size: 12px; float: left; width: 230px; color: #b6b6b6; margin: 8px 5px 0 0; text-align: right;}
 .entry-tag {color: #b6b6b6; text-align: right; padding: 8px 0; margin-right: 10px; font-size: 12px; float: left; width: 700px;}
 .entry-tag span, .entry-header-extra span {padding: 0 5px;}
@@ -61,6 +61,36 @@ body {margin: 0;}
 .entry-tag a:hover, .entry-header-extra a:hover {color: #71cbed;}
 
 .entry-content {color: #333; font-size: 14px; width: 680px; float: left; margin: 0 10px;}
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4,
+.entry-content h5, .entry-content h6 {color: #33b5e5; font-weight: bold; padding: 5px 0;}
+.entry-content h1 {font-size: 20px;}
+.entry-content h2 {font-size: 18px;}
+.entry-content h3 {font-size: 16px;}
+.entry-content h4 {font-size: 15px;}
+.entry-content h5 {font-size: 14px;}
+.entry-content h6 {font-size: 13px;}
+.entry-content p {font-size: 14px; margin: 15px 0;}
+.entry-content a, .entry-content a:visited {color: #33b5e5; text-decoration: none;}
+.entry-content a:hover {color: #71cbed; text-decoration: none;}
+.entry-content ul, .entry-content ol {margin: 15px 0; padding: 0 0 0 40px;}
+.entry-content blockquote {background-color: #f3f3f3; padding: 13px 20px; margin: 0;}
+
+#comment-group {color: #333; font-size: 14px;}
+#comment-group h3 {color: #33b5e5; font-weight: bold; margin: 15px 10px;}
+#comment-group a, #comment-group a:visited {color: #33b5e5; text-decoration: none;}
+#comment-group a:hover {color: #71cbed; text-decoration: none;}
+#cancel-comment-reply {margin: 5px 10px;}
+#cancel-comment-reply a {color: #8b8b8b;}
+#commentform #author, #commentform #email, #commentform #url, #commentform #comment {border-bottom: solid 1px #33b5e5;}
+#commentform #submit {color: #fff; background-color: #33b5e5;}
+#commentform #submit:hover {color: #fff; background-color: #71cbed;}
+.commentlist #respond {padding: 5px 0 5px 15px; margin: 5px 0; border-left: solid 1px #71cbed;}
+.commentlist #author, .commentlist #email, .commentlist #url, .commentlist #comment {background-color: #f3f3f3;}
+.comment-body {padding: 5px; margin: 5px 0px;}
+ol.commentlist, .commentlist ul.children {list-style: none; padding: 0 0 0 20px; border-left: solid 1px #71cbed;}
+.commentlist li.odd {background-color: #f3f3f3;}
+.comment-author {height: 34px; line-height: 34px;}
+.comment-meta {text-align: right; margin-top: -14px;}
 
 #pager {width: 700px; float: left; margin: 30px 10px 50px 10px;}
 #pager ul {list-style: none; margin: 0; padding: 0;}

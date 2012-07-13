@@ -76,6 +76,7 @@ body {margin: 0;}
 .entry-content a:hover {color: #71cbed; text-decoration: none;}
 .entry-content ul, .entry-content ol {margin: 15px 0; padding: 0 0 0 40px;}
 .entry-content blockquote {background-color: #f3f3f3; padding: 13px 20px; margin: 0;}
+.entry-content li {margin: 8px 0;}
 
 #comment-group {color: #333; font-size: 14px;}
 #comment-group h3 {color: #33b5e5; font-weight: bold; margin: 15px 10px;}

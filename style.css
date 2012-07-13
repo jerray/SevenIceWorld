@@ -71,7 +71,7 @@ body {margin: 0;}
 .entry-content h4 {font-size: 15px;}
 .entry-content h5 {font-size: 14px;}
 .entry-content h6 {font-size: 13px;}
-.entry-content p {font-size: 14px; margin: 15px 0;}
+.entry-content p {font-size: 14px; margin: 15px 0; line-height: 150%;}
 .entry-content a, .entry-content a:visited {color: #33b5e5; text-decoration: none;}
 .entry-content a:hover {color: #71cbed; text-decoration: none;}
 .entry-content ul, .entry-content ol {margin: 15px 0; padding: 0 0 0 40px;}
@@ -87,8 +87,9 @@ body {margin: 0;}
 #commentform #submit {color: #fff; background-color: #33b5e5;}
 #commentform #submit:hover {color: #fff; background-color: #71cbed;}
 .commentlist #respond {padding: 5px 0 5px 15px; margin: 5px 0; border-left: solid 1px #71cbed;}
-.commentlist #author, .commentlist #email, .commentlist #url, .commentlist #comment {background-color: #f3f3f3;}
+.commentlist .odd #author, .commentlist .odd #email, .commentlist .odd #url, .commentlist .odd #comment {background-color: #f3f3f3;}
 .comment-body {padding: 5px; margin: 5px 0px;}
+.comment-body p {font-size: 14px; margin: 15px 0; line-height: 150%;}
 ol.commentlist, .commentlist ul.children {list-style: none; padding: 0 0 0 20px; border-left: solid 1px #71cbed;}
 .commentlist li.odd {background-color: #f3f3f3;}
 .commentlist li.even {background-color: #fff;}

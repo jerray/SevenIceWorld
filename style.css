@@ -35,7 +35,9 @@ body {margin: 0;}
 #social-github-icon:hover {height: 48px; width: 48px; background: url(images/icons.png) no-repeat; background-position: -48px -48px;}
 #social-rss-icon:hover {height: 48px; width: 48px; background: url(images/icons.png) no-repeat; background-position: -96px -48px;}
 
-#access {width: 1024px; height: 64px; background-color: #33b5e5; float: left; box-shadow: 0 0 10px #000;}
+#access {width: 1024px; height: 64px; background-color: #33b5e5; float: left; box-shadow: 0 0 10px #000; z-index: 999;}
+.toplock {position: fixed;}
+#access_blank {width: 1024px; height: 64px; float: left;display: none;}
 #admin-avatar {width: 64px; height: 64px; float: left;}
 #head-menu {float: left; height: 64px; font-size: 14px;}
 #head-menu ul {list-style: none; margin: 0; padding: 0;}
@@ -89,6 +91,7 @@ body {margin: 0;}
 .comment-body {padding: 5px; margin: 5px 0px;}
 ol.commentlist, .commentlist ul.children {list-style: none; padding: 0 0 0 20px; border-left: solid 1px #71cbed;}
 .commentlist li.odd {background-color: #f3f3f3;}
+.commentlist li.even {background-color: #fff;}
 .comment-author {height: 34px; line-height: 34px;}
 .comment-meta {text-align: right; margin-top: -14px;}
 

@@ -56,5 +56,6 @@
             <?php wp_nav_menu(); ?>
         </div>
     </nav>
+    <div id="access_blank"></div>
 
     <div id="main">

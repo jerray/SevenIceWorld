@@ -8,5 +8,22 @@
 
     </div>
 <?php wp_footer(); ?>
+<script type="text/javascript">
+jQuery(function(){
+    var body = jQuery(window),
+        nav = jQuery('#access'),
+        nav_b = jQuery('#access_blank'),
+        lock = 'toplock';
+    body.scroll(function(){
+        if (body.scrollTop() >= 128) {
+            nav.addClass(lock);
+            nav_b.show();
+        } else if (nav.hasClass(lock)) {
+            nav.removeClass(lock);
+            nav_b.hide();
+        }
+    });
+});
+</script>
 </body>
 </html>

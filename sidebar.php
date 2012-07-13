@@ -1,12 +1,7 @@
 <div id="sidebar">
     <div id="widgets">
         <aside id="search" class="widget widget-search">
-            <form method="get" action="http://localhost/theme/">
-                <!--label for="s" class="assistive-text">搜索</label>
-                <input type="text" class="field" name="s" id="s" placeholder="搜索" />
-                <input type="submit" id="search-submit-button" value="提交" /-->
-                <?php get_search_form(); ?>
-            </form>
+            <?php get_search_form(); ?>
         </aside>
 
         <?php if (!dynamic_sidebar('sidebar-1')): ?>

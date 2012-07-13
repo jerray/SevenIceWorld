@@ -7,8 +7,9 @@
         </span>
     </header>
     <aside class="entry-tag">
-        <span>%<?php edit_post_link('编辑'); ?></span>
-        <?php echo '@' . get_the_category_list(' ') . get_the_tag_list('#');?>
+        <span><?php edit_post_link('编辑', '%'); ?></span>
+        <?php $categorys = get_the_category_list(' '); if ($categorys) {echo '@';}?>
+        <?php echo $categorys . get_the_tag_list('#');?>
     </aside>
     <div class="entry-content">
         <?php the_content(); ?>
